@@ -1,0 +1,33 @@
+{
+  "name": "patternlab-plugin-error-report",
+  "version": "1.0.0",
+  "description": "Quick repo to reproduce an error with patternlab-node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pl:build": "patternlab build --config ./patternlab-config.json",
+    "pl:help": "patternlab --help",
+    "pl:install": "patternlab install --config ./patternlab-config.json",
+    "pl:serve": "patternlab serve --config ./patternlab-config.json",
+    "pl:version": "patternlab --version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wasnlosdu/patternlab-plugin-error-report.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wasnlosdu/patternlab-plugin-error-report/issues"
+  },
+  "homepage": "https://github.com/wasnlosdu/patternlab-plugin-error-report#readme",
+  "dependencies": {
+    "@pattern-lab/cli": "^0.0.1-beta.1",
+    "@pattern-lab/core": "^3.0.0-beta.1",
+    "@pattern-lab/engine-mustache": "^2.0.0-beta.0",
+    "@pattern-lab/plugin-tab": "^2.0.3-beta.0",
+    "@pattern-lab/starterkit-mustache-base": "^3.0.3",
+    "@pattern-lab/uikit-workshop": "^1.0.0-beta.0"
+  }
+}
