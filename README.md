@@ -1,6 +1,15 @@
 # patternlab-plugin-error-report
 Quick repo to reproduce an error with patternlab-node
 
+## System Information
+```bash
+$ node -v
+v10.10.0
+
+$ npm -v
+6.4.1
+```
+
 ## Steps to reproduce
 
 
